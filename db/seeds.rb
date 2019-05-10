@@ -14,7 +14,7 @@ User.create!(name:  "Aline",
     password:              "123456",
     password_confirmation: "123456")
 
-48.times do |n|
+69.times do |n|
 name  = Faker::Name.name
 email = "example-#{n+1}@railstutorial.org"
 User.create!(name:  name,
