@@ -2,10 +2,15 @@ User.create!(name:  "Example User",
     email: "example@railstutorial.org",
     password:              "foobar",
     password_confirmation: "foobar",
+
+User.create!(name:  "Fabio",
+    email: "fabowow@gmail.com",
+    password:              "123456",
+    password_confirmation: "123456",
     admin: true)
 
-User.create!(name:  "Fabio Ponto",
-    email: "fabowow@gmail.com",
+User.create!(name:  "Aline",
+    email: "aline8890@gmail.com",
     password:              "123456",
     password_confirmation: "123456")
 
